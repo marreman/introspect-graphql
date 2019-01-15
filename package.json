@@ -1,0 +1,22 @@
+{
+  "name": "introspect-graphql",
+  "version": "1.0.0",
+  "description": "Given a string representing a GraphQL schema as input, yield the result of the introspection query as output.",
+  "main": "./bin/introspect-graphql",
+  "bin": "./bin/introspect-graphql",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "introspection",
+    "query"
+  ],
+  "author": "Martin Liberg <mr.liberg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "get-stdin": "^6.0.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3"
+  }
+}

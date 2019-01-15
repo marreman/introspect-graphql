@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const { mockServer } = require("graphql-tools")
+const { introspectionQuery } = require("graphql")
+const getStdin = require("get-stdin")
+
+getStdin().then(input => {
+  mockServer(input)
+    .query(introspectionQuery)
+    .then(r => JSON.stringify(r, null, 2))
+    .then(console.log)
+})
