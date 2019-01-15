@@ -1,6 +1,6 @@
 {
   "name": "introspect-graphql",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Given a string representing a GraphQL schema as input, yield the result of the introspection query as output.",
   "repository": {
     "type": "git",
